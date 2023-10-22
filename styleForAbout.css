@@ -1,0 +1,64 @@
+/* Style for the entire instructions section */
+#instructions {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+/* Style for individual paragraphs */
+#instructions p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Style for headers */
+#instructions h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style for ordered lists */
+#instructions ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+/* Style for list items in ordered lists */
+#instructions li {
+    color: #666;
+}
+
+/* Style for specific links */
+#linkedin-link {
+    color: #0077B5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#linkedin-link:hover {
+    color: #004471;
+}
+
+/* Style for the "Blink Color" section */
+#instructions p:nth-last-child(1) {
+    margin-top: 20px;
+}
+
+/* Add some space between paragraphs */
+#instructions p + p {
+    margin-top: 10px;
+}
+
+#linkedin-link {
+    color: #0077B5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#linkedin-link:hover {
+    color: #004471;
+}
