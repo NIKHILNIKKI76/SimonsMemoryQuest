@@ -7,6 +7,8 @@ let started = false;
 
 let level = 0;
 
+
+
 let resetBtn = document.getElementById("resetBtn");
 let container = document.querySelector(".container");
 let correct = document.getElementById("correctGameseq");
@@ -78,7 +80,9 @@ function levelUp() {
     let randbtn = document.querySelector(`.${randColor}`);
     gameFlash(randbtn);
     gameSeq.push(randColor);
+    console.log(gameSeq);
 }
+
 
 
 for (btn of allBtns) {
