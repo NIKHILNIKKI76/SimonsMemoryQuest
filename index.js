@@ -107,7 +107,7 @@ function check() {
         setTimeout(() => {
             body.style.backgroundColor = "white";
         }, 140);
-        document.querySelector("h2").innerHTML = `Game over score is ${level - 1}`;
+        document.querySelector("h2").innerHTML = `Game over, Your score is ${level - 1}`;
         correct.innerHTML = `<strong>correct sequence : </strong>${gameSeq}`;
         resetBtn.style.display = "inline";
     }
