@@ -61,7 +61,9 @@ document.addEventListener("click", (event) => {
 });
 
 document.addEventListener("keypress", () => {
-    if (started == false) {
+    if (!started &&
+        userSeq.length === 0 &&
+        gameSeq.length === 0) {
         started = true;
         level++;
         document.querySelector("h2").innerText = `level ${level}`;
